@@ -10,7 +10,7 @@ namespace BubbleSortE12
             int temp;
             for (x = 0; x < array.Length; x++)
             {
-                for (y = 0; y < array.Length; y++)
+                for (y =0; y < array.Length; y++)
                 {
                     if (array[y] > array[y + 1])
                     {
